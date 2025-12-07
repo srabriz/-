@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>תלמיד תורה - בית אהרן וישראל</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to left, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    h2 {
+      margin: 10px 0 30px;
+      font-weight: normal;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 40px 0;
+    }
+
+    .button {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 2px solid white;
+      border-radius: 15px;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .button i {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .button span {
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- לוגו בית הספר -->
+    <img src="https://github.com/srabriz/-/blob/2-logo-ib/%D7%9C%D7%95%D7%92%D7%95%20%D7%97%D7%99%D7%99%D7%93%D7%A8%20%D7%A2%D7%95%D7%A6%D7%9E%D7%AA%D7%99.png?raw=true" alt="לוגו בית הספר">
+
+    <div>
+      <h1>תלמיד תורה</h1>
+      <h2>בית אהרן וישראל</h2>
+    </div>
+
+    <!-- לוגו בונה המערכת -->
+    <img src="https://github.com/srabriz/-/blob/2-logo-ib/Gemini_Generated_Image_pm1o5wpm1o5wpm1o.png?raw=true" alt="לוגו בונה המערכת">
+  </header>
+
+  <div class="button-container">
+    <div class="button">
+      <i class="fas fa-desktop"></i>
+      <span>מזכירות</span>
+    </div>
+    <div class="button">
+      <i class="fas fa-chalkboard-teacher"></i>
+      <span>מורים</span>
+    </div>
+    <div class="button">
+      <i class="fas fa-user-tie"></i>
+      <span>מנהל</span>
+    </div>
+    <div class="button">
+      <i class="fas fa-store"></i>
+      <span>קיוסק</span>
+    </div>
+    <div class="button">
+      <i class="fas fa-book"></i>
+      <span>ספריה</span>
+    </div>
+    </div>
+  </div>
+
+</body>
+</html>
